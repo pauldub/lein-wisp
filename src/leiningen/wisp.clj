@@ -31,7 +31,7 @@
     (fs/mkdirs out-dir)
     (doseq [src files]
       (let [out (fs/file out-dir (string/replace-first src #"\.wisp$" ".js"))]
-        (with-programs [cat wisp]
+        (with-programs [wisp]
           (wisp {:in src :out out}))))))
 
 (defn wisp-src? [file]
