@@ -2,6 +2,8 @@
 
 A Leiningen plugin to compile [wisp](https://github.com/gozalla/wisp) source files to Javascript.
 
+[![Clojars Project](http://clojars.org/lein-wisp/latest-version.svg)](http://clojars.org/lein-wisp)
+
 ## Usage
 
 Put `[lein-wisp "0.1.0-SNAPSHOT"]` into the `:plugins` vector and `leinignen.wisp/middleware` into the `:middleware` vector of your project.clj.
